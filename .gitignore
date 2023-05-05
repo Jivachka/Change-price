@@ -1,0 +1,59 @@
+# Игнорировать файлы и папки, связанные с PyCharm
+.idea/
+
+# Игнорировать скомпилированные файлы Python (*.pyc, *.pyo, *.pyd)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорировать файлы и папки виртуального окружения Python
+venv/
+*.env
+.env/
+myenv/
+.virtualenvs/
+
+# Игнорировать файлы и папки, связанные с Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорировать файлы и папки, создаваемые при установке пакетов Python
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+*.dll
+
+# Игнорировать файлы и папки, создаваемые различными инструментами
+.coverage
+coverage/
+.cache
+.pytest_cache/
+.pytype/
+mypy_cache/
+nosetests.xml
+*.cover
+*.py,cover
+.tox/
+.tox.ini
+.pylintrc
+.pydocstyle
+.pyre/
+.pyre_configuration
+
+# Игнорировать общие временные файлы и папки
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
